@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="" />
+        <!-- Page Title -->
+        <title>Home Page</title>
+        <!-- All Style Links -->
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"></link>
+        <!-- CSS | fontawesome Style -->
+        <link type="text/css" rel="stylesheet" href="css/all.min.css"></link>
+        <!--  CSS | slick -->
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+        <!-- CSS | Main style -->
+        <link type="text/css" rel="stylesheet" href="css/custom.css"></link>
+    </head>
+    <body>
+
+        <!-- Start_Header -->
+        <header id="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="Logo - Fly365"> </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Flights</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hotels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hotels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Offers</a>
+                            </li>
+                        </ul>
+                        <div class="nav_right">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="dropdown">
+                                    <a class="nav-link uppercase dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img class="flag_icon" src="images/UAE_1_.png" alt=""> ar
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item uppercase" href="#">en</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="nav-link uppercase dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    usd
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item uppercase" href="#">le</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item uppercase" href="#">euro</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Retrieve my booking</a>
+                                </li>
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-warning uppercase">sign in</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- End_Header -->
+
+        <!-- Start_search_blog -->
+        <section id="search_blog">
+        	<div class="container">
+        		<div class="row">
+	        		<div class="col-lg-4">
+	        			<div class="iocns_circular">
+	        				<ul>
+	        					<li>
+	        						<i class="fa fa-plane"></i>
+	        						<span>Flights</span>
+	        					</li>
+	        					<li>
+	        						<i class="fa fa-bed"></i>
+	        						<span>Hotels</span>
+	        					</li>
+	        					<li>
+	        						<i class="fa fa-umbrella-beach"></i>
+	        						<span>Holidays</span>
+	        					</li>
+	        					<li>
+	        						<i class="fa fa-atom"></i>
+	        						<span>Offer</span>
+	        					</li>
+	        				</ul>
+	        			</div>
+	        			<!-- tab_search -->
+	        			<div class="tab_search">
+		        			<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+		        				<li class="nav-item">
+		        					<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Oneway</a>
+		        				</li>
+		        				<li class="nav-item">
+		        					<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Round Trip</a>
+		        				</li>
+		        				<li class="nav-item">
+		        					<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Multi-City</a>
+		        				</li>
+		        			</ul>
+		        			<div class="tab-content" id="pills-tabContent">
+		        				<div class="tab-pane info_search fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+		        					<form>
+		        						<div class="form-row">
+		        							<div class="col">
+		        								<span class="input-group-addon"><i class="fa fa-map-marker-alt"></i></span>
+		        								<input type="text" class="form-control" placeholder="Cairo, Egypt (CAI)">
+		        							</div>
+		        							<div class="col">
+		        								<span class="input-group-addon black_ico"><i class="fa fa-map-marker-alt"></i></span>
+		        								<input type="text" class="form-control" placeholder="Destination">
+		        							</div>
+		        						</div>
+		        						<div class="form-row">
+		        							<div class="col">
+		        								<span class="input-group-addon"><i class="fa fa-calendar-alt"></i></span>
+		        								<input type="text" class="form-control" placeholder="10 JULY 2018">
+		        							</div>
+		        							<div class="col">
+		        								<span class="input-group-addon black_ico"><i class="fa fa-calendar-alt"></i></span>
+		        								<input type="text" class="form-control" disabled placeholder="Return Date">
+		        							</div>
+		        						</div>
+		        						<div class="form-row">
+		        							<div class="col">
+		        								<span class="input-group-addon"><i class="fa fa-bookmark"></i></span>
+		        								<input type="text" class="form-control" placeholder="Business">
+		        							</div>
+		        							<div class="col">
+		        								<span class="input-group-addon black_ico"><i class="fa fa-user"></i></span>
+		        								<input type="text" class="form-control" placeholder="Passenger">
+		        							</div>
+		        						</div>
+		        						<button type="button" class="btn btn-warning uppercase"> <i class="fa fa-search"></i> search now </button>
+		        					</form>
+		        				</div>
+		        				<div class="tab-pane info_search fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+		        					<form>
+		        						<div class="form-row">
+		        							<div class="col">
+		        								<span class="input-group-addon"><i class="fa fa-map-marker-alt"></i></span>
+		        								<input type="text" class="form-control" placeholder="Cairo, Egypt (CAI)">
+		        							</div>
+		        							<div class="col">
+		        								<span class="input-group-addon black_ico"><i class="fa fa-map-marker-alt"></i></span>
+		        								<input type="text" class="form-control" placeholder="Destination">
+		        							</div>
+		        						</div>
+		        						<div class="form-row">
+		        							<div class="col">
+		        								<span class="input-group-addon"><i class="fa fa-calendar-alt"></i></span>
+		        								<input type="text" class="form-control" placeholder="10 JULY 2018">
+		        							</div>
+		        							<div class="col">
+		        								<span class="input-group-addon black_ico"><i class="fa fa-calendar-alt"></i></span>
+		        								<input type="text" class="form-control" disabled placeholder="Return Date">
+		        							</div>
+		        						</div>
+		        						<div class="form-row">
+		        							<div class="col">
+		        								<span class="input-group-addon"><i class="fa fa-bookmark"></i></span>
+		        								<input type="text" class="form-control" placeholder="Business">
+		        							</div>
+		        							<div class="col">
+		        								<span class="input-group-addon black_ico"><i class="fa fa-user"></i></span>
+		        								<input type="text" class="form-control" placeholder="Passenger">
+		        							</div>
+		        						</div>
+		        						<button type="button" class="btn btn-warning uppercase"> <i class="fa fa-search"></i> search now </button>
+		        					</form>
+		        				</div>
+		        				<div class="tab-pane info_search fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+		        					<form>
+		        						<div class="form-row">
+		        							<div class="col">
+		        								<span class="input-group-addon"><i class="fa fa-map-marker-alt"></i></span>
+		        								<input type="text" class="form-control" placeholder="Cairo, Egypt (CAI)">
+		        							</div>
+		        							<div class="col">
+		        								<span class="input-group-addon black_ico"><i class="fa fa-map-marker-alt"></i></span>
+		        								<input type="text" class="form-control" placeholder="Destination">
+		        							</div>
+		        						</div>
+		        						<div class="form-row">
+		        							<div class="col">
+		        								<span class="input-group-addon"><i class="fa fa-calendar-alt"></i></span>
+		        								<input type="text" class="form-control" placeholder="10 JULY 2018">
+		        							</div>
+		        							<div class="col">
+		        								<span class="input-group-addon black_ico"><i class="fa fa-calendar-alt"></i></span>
+		        								<input type="text" class="form-control" disabled placeholder="Return Date">
+		        							</div>
+		        						</div>
+		        						<div class="form-row">
+		        							<div class="col">
+		        								<span class="input-group-addon"><i class="fa fa-bookmark"></i></span>
+		        								<input type="text" class="form-control" placeholder="Business">
+		        							</div>
+		        							<div class="col">
+		        								<span class="input-group-addon black_ico"><i class="fa fa-user"></i></span>
+		        								<input type="text" class="form-control" placeholder="Passenger">
+		        							</div>
+		        						</div>
+		        						<button type="button" class="btn btn-warning uppercase"> <i class="fa fa-search"></i> search now </button>
+		        					</form>
+		        				</div>
+		        			</div>
+		        		</div>	
+	        			<!-- end_tab_search -->
+	        		</div>
+	        		<div class="col-lg-8 bg_w">
+	        			<div class="blogs-page">
+	        				<div class="head_title">
+		        				<span class="uppercase">now</span>
+		        				<h1>Book Flights, Hotels <br class="non" /> and Holiday Packages</h1>
+		        				<p>It is a long established fact that a reader will be distracted .</p>
+		        			</div>	
+		        			<div class="row mrg_00">
+		        				<div class="col-sm">
+				        			<div class="blog">
+				        				<div class="img_blog">
+					        				<div class="overly_bg"></div>
+					        				<img src="images/pic_blog.jpg" alt="">
+					        				<div class="info_in_pic">
+					        					<i>50%</i>
+					        					<p>Paris hotel deals and tours</p>
+					        				</div>
+				        				</div>
+				        				<h2>Cheap Flights to Over 15,000 Destinations</h2>
+				        				<p>Fly around the world with tajawal. Book your airline tickets to over 15,000 destinations including exciting places like Dubai, Vienna and Madrid with tajawal now and travel at affordable rates.</p>
+				        			</div>
+				        		</div>
+				        		<div class="col-sm">
+				        			<div class="blog">
+				        				<div class="img_blog">
+					        				<div class="overly_bg"></div>
+					        				<img src="images/pic_blog.jpg" alt="">
+					        				<div class="info_in_pic">
+					        					<i>50%</i>
+					        					<p>Paris hotel deals and tours</p>
+					        				</div>
+				        				</div>
+				        				<h2>Cheap Flights to Over 15,000 Destinations</h2>
+				        				<p>Fly around the world with tajawal. Book your airline tickets to over 15,000 destinations including exciting places like Dubai, Vienna and Madrid with tajawal now and travel at affordable rates.</p>
+				        			</div>
+				        		</div>	
+			        		</div>	
+	        			</div>
+	        		</div>
+	        	</div>	
+        	</div>
+        </section>
+        <!-- End_search_blog -->
+
+        <!-- Start_booking_carousel -->
+        <section id="booking_carousel">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-lg-4 col-xs-12">
+        				<div class="head_title">
+        					<span class="uppercase">now</span>
+        					<h1>Book Flights, Hotels <br/> and Holiday Packages</h1>
+        					<p>It is a long established fact that a reader will be distracted It is a long established fact that a reader will be distracted .</p>
+        				</div>	
+        				<div class="btn_v_c">
+        					<button type="button" class="btn btn-warning uppercase"> view all </button>
+        					<button type="button" class="btn uppercase"> contact us </button>
+        				</div>
+        			</div>
+        			<div class="col-lg-8 col-xs-12 carousel_00">
+        				<div class="booking_carousel">
+        					<div class="img_blog">
+        						<div class="overly_bg"></div>
+        						<img src="images/pic_blog.jpg" class="img-fluid" alt="">
+        						<div class="info_in_pic">
+        							<i>50%</i>
+        							<p>Paris hotel deals and tours</p>
+        						</div>
+        					</div>
+        					<div class="img_blog">
+        						<div class="overly_bg"></div>
+        						<img src="images/pic_blog.jpg" class="img-fluid" alt="">
+        						<div class="info_in_pic">
+        							<i>50%</i>
+        							<p>Paris hotel deals and tours</p>
+        						</div>
+        					</div>
+        					<div class="img_blog">
+        						<div class="overly_bg"></div>
+        						<img src="images/pic_blog.jpg" class="img-fluid" alt="">
+        						<div class="info_in_pic">
+        							<i>50%</i>
+        							<p>Paris hotel deals and tours</p>
+        						</div>
+        					</div>
+        					<div class="img_blog">
+        						<div class="overly_bg"></div>
+        						<img src="images/pic_blog.jpg" class="img-fluid" alt="">
+        						<div class="info_in_pic">
+        							<i>50%</i>
+        							<p>Paris hotel deals and tours</p>
+        						</div>
+        					</div>
+        					<div class="img_blog">
+        						<div class="overly_bg"></div>
+        						<img src="images/pic_blog.jpg" class="img-fluid" alt="">
+        						<div class="info_in_pic">
+        							<i>50%</i>
+        							<p>Paris hotel deals and tours</p>
+        						</div>
+        					</div>
+        				</div>	
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!-- end_booking_carousel -->
+
+        <!-- Start_offer_box -->
+        <section id="offer_box">
+        	<div class="container">
+        		<div class="title_offer">
+        			<h2> <i class="fa fa-circle"></i>  Best Offers </h2>
+        		</div>
+        		<div class="row">
+	       			<div class="col-sm">
+	       				<div class="img_blog">
+	       					<div class="overly_bg"></div>
+	       					<img src="images/pic_blog.jpg" class="img-fluid" alt="">
+	       					<div class="info_in_pic">
+	       						<i>50%</i>
+	       						<p>Paris hotel deals and tours</p>
+	       					</div>
+	       				</div>
+        			</div>
+        			<div class="col-sm">
+	       				<div class="img_blog">
+	       					<div class="overly_bg"></div>
+	       					<img src="images/pic_blog.jpg" class="img-fluid" alt="">
+	       					<div class="info_in_pic">
+	       						<i>50%</i>
+	       						<p>Paris hotel deals and tours</p>
+	       					</div>
+	       				</div>
+        			</div>
+        			<div class="col-sm">
+	       				<div class="img_blog">
+	       					<div class="overly_bg"></div>
+	       					<img src="images/pic_blog.jpg" class="img-fluid" alt="">
+	       					<div class="info_in_pic">
+	       						<i>50%</i>
+	       						<p>Paris hotel deals and tours</p>
+	       					</div>
+	       				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!-- End_offer_box -->
+
+        <!-- footer -->
+        <footer id="footer">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-lg-6">
+        				<div class="text_foo">
+        					<h4>We’re Always Here To Help</h4>
+        					<p>Reach out to us through any of these support channels</p>
+        				</div>
+        			</div>
+        			<div class="col-sm">
+        				<div class="info_foo">
+        					<span> <i class="fa fa-envelope"></i> </span>
+        					<div class="text_info_foo">
+        						<small>HELP CENTER</small>
+        						<strong>Info@fly365.com</strong>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-sm">
+        				<div class="info_foo">
+        					<span> <i class="fa fa-clock"></i> </span>
+        					<div class="text_info_foo">
+        						<small>EMAIL SUPPORT</small>
+        						<strong>Info@fly365.com</strong>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-sm">
+        				<div class="info_foo">
+        					<span> <i class="fa fa-phone"></i> </span>
+        					<div class="text_info_foo">
+        						<small>PHONE SUPPORT</small>
+        						<strong>+20 0124 025 055</strong>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        		<div class="row marg_t">
+        			<div class="col-md">
+        				<div class="list_foo">
+        					<span>More Links</span>
+        					<ul>
+        						<li>
+        							<a href="#" title="">Home</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Flights</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Hotels</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Holidays</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Offer</a>
+        						</li>
+        					</ul>
+        				</div>
+        			</div>
+        			<div class="col-md">
+        				<div class="list_foo">
+        					<span>More Links</span>
+        					<ul>
+        						<li>
+        							<a href="#" title="">Home</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Flights</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Hotels</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Holidays</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Offer</a>
+        						</li>
+        					</ul>
+        				</div>
+        			</div>
+        			<div class="col-md">
+        				<div class="list_foo">
+        					<span>More Links</span>
+        					<ul>
+        						<li>
+        							<a href="#" title="">Home</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Flights</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Hotels</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Holidays</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Offer</a>
+        						</li>
+        					</ul>
+        				</div>
+        			</div>
+        			<div class="col-md">
+        				<div class="list_foo">
+        					<span>More Links</span>
+        					<ul>
+        						<li>
+        							<a href="#" title="">Home</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Flights</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Hotels</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Holidays</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Offer</a>
+        						</li>
+        					</ul>
+        				</div>
+        			</div>
+        			<div class="col-md">
+        				<div class="list_foo">
+        					<span>More Links</span>
+        					<ul>
+        						<li>
+        							<a href="#" title="">Home</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Flights</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Hotels</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Holidays</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Offer</a>
+        						</li>
+        					</ul>
+        				</div>
+        			</div>
+        			<div class="col-md">
+        				<div class="list_foo">
+        					<span>More Links</span>
+        					<ul>
+        						<li>
+        							<a href="#" title="">Home</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Flights</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Hotels</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Holidays</a>
+        						</li>
+        						<li>
+        							<a href="#" title="">Offer</a>
+        						</li>
+        					</ul>
+        				</div>
+        			</div>
+        			<div class="col-md-3 item-first m_b">
+        				<div class="news_letter list_foo">
+        					<span>Save time, save money!</span>
+        					<p>Sign up and we'll send the best deals to you</p>
+        					<form>
+        						<input type="text" class="form-control" placeholder="Your Email">
+        						<input type="submit" class="btn btn-warning form-control" placeholder="Subscribe">
+        					</form>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </footer>
+        <!-- end_footer -->
+
+        <!-- All javascripts Links -->
+        <script src="js/jquery.js"></script>
+        <!-- js | bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <!-- js | slick-->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <!-- js | custom -->
+        <script src="js/custom.js"></script>
+    </body>
+</html>
